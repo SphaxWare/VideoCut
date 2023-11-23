@@ -1,6 +1,7 @@
 # VideoCut
 
 This Python script allows you to trim a video file based on specified start and end timestamps. It uses the `moviepy` library for video editing.
+https://github.com/Zulko/moviepy
 
 ## Prerequisites
 
