@@ -1,4 +1,4 @@
-# Video Trimmer
+# VideoCut
 
 This Python script allows you to trim a video file based on specified start and end timestamps. It uses the `moviepy` library for video editing.
 
@@ -15,13 +15,13 @@ pip install moviepy
 # Usage
 1. Clone the Repository:
 ````
-git clone github.com/SphaxWare/VideoTrimmer/edit.git
-cd VideoTrimmer
+git clone github.com/SphaxWare/VideoCut/edit.git
+cd VideoCut
 ````
 2. Run the Script:
 
 ```bash
-python trimmer.py
+python vidcut.py
 ```
 3. Follow the Prompts:
 ```
