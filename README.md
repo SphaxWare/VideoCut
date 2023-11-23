@@ -40,3 +40,8 @@ Enter the start timestamp (hh:mm:ss): 00:00:30
 Enter the end timestamp (hh:mm:ss): 00:01:30
 Enter the path for the output video file: path/to/output/trimmed_video.mp4
 ```
+
+for the resizer to work you may need to install an older version of pillow
+```
+pip install Pillow==9.5.0
+```
