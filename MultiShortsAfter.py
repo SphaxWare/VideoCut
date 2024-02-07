@@ -37,9 +37,10 @@ if __name__ == "__main__":
     video_details = []
 
     for input_video in input_videos:
+        output_video = input(f"Enter the path for the output video file for {os.path.basename(input_video)}: ") + ".mp4"
         start_timestamp = input("Enter the start timestamp (hh:mm:ss): ")
         end_timestamp = input("Enter the end timestamp (hh:mm:ss, press Enter for full video): ")
-        output_video = input(f"Enter the path for the output video file for {os.path.basename(input_video)}: ") + ".mp4"
+        
 
         video_details.append((input_video, start_timestamp or None, end_timestamp or None, output_video))
 
