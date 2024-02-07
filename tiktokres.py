@@ -30,6 +30,7 @@ def trim_video(input_video, start_timestamp, end_timestamp, output_video):
 
 if __name__ == "__main__":
     input_video = input("Enter the path to the input video file: ")
+    input_video = input_video.replace('"', '')
     start_timestamp = input("Enter the start timestamp (hh:mm:ss): ")
     end_timestamp = input("Enter the end timestamp (hh:mm:ss, press Enter for full video): ")
     output_video = input("Enter the path for the output video file: ")+".mp4"
